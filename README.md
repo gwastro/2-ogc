@@ -17,7 +17,7 @@ We present the second Open Gravitational-wave Catalog (2-OGC) of compact-binary 
 The catalog is stored in the file '2-OGC.hdf'. There are a variety of tools to access [hdf files](https://www.hdfgroup.org/) from numerous computing languages. Here we will focus on access through python and [h5py](www.h5py.org).
 
 ## Analysis Details ##
-Details of the analysis are available in this [preprint paper](https://arxiv.org/abs/XXXXXXXX) and the configuration files needed to create the analysis workflows are provided in the [search_configs](https://github.com/gwastro/1-ogc/tree/master/search_configs) directory.
+Details of the analysis are available in this [preprint paper](https://arxiv.org/abs/1910.05331) and the configuration files needed to create the analysis workflows are provided in the [search_configs](https://github.com/gwastro/1-ogc/tree/master/search_configs) directory.
 
 ## Accessing the Catalog: 2-OGC.hdf ##
 
@@ -85,10 +85,10 @@ We encourage use of these data in derivative works. If you use the material prov
       title          = "{2-OGC: Open Gravitational-wave Catalog of binary mergers from
                          analysis of public Advanced LIGO and Virgo data}",
       year           = "2019",
-      eprint         = "XXXXX",
+      eprint         = "1910.05331",
       archivePrefix  = "arXiv",
       primaryClass   = "astro-ph",
-      SLACcitation   = "%%CITATION = ARXIV:1811.01921;%%"
+      SLACcitation   = "%%CITATION = ARXIV:1910.05331;%%"
 }
 ```
 
