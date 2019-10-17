@@ -79,15 +79,17 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 3.0 Unite
 We encourage use of these data in derivative works. If you use the material provided here, please cite the paper using the reference:
 
 ```
-@article{Nitz:2018XXX,
-      author         = "Alexander H. Nitz, Thomas Dent, Gareth S. Davies, Sumit Kumar, Collin D. Capano, 
-                        Ian Harry, Simone Mozzon, Laura Nuttall, Andrew Lundgren, and Marton Tapai",
-      title          = "{2-OGC: Open Gravitational-wave Catalog of binary mergers from
-                         analysis of public Advanced LIGO and Virgo data}",
+@article{Nitz:2019hdf,
+      author         = "Nitz, Alexander H. and Dent, Thomas and Davies, Gareth S.
+                        and Kumar, Sumit and Capano, Collin D. and Harry, Ian and
+                        Mozzon, Simone and Nuttall, Laura and Lundgren, Andrew and
+                        Tápai, Marton",
+      title          = "{2-OGC: Open Gravitational-wave Catalog of binary mergers
+                        from analysis of public Advanced LIGO and Virgo data}",
       year           = "2019",
       eprint         = "1910.05331",
       archivePrefix  = "arXiv",
-      primaryClass   = "astro-ph",
+      primaryClass   = "astro-ph.HE",
       SLACcitation   = "%%CITATION = ARXIV:1910.05331;%%"
 }
 ```
