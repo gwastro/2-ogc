@@ -16,7 +16,7 @@ We present the second Open Gravitational-wave Catalog (2-OGC) of compact-binary 
 
 The catalog is stored in the file '2-OGC.hdf'. There are a variety of tools to access [hdf files](https://www.hdfgroup.org/) from numerous computing languages. Here we will focus on access through python and [h5py](www.h5py.org).
 
-## Parameter Estimates for top 30 BBH candidates ##
+## [Parameter Estimates for top 30 BBH candidates](http://pycbc.org/2-ogc/top30_bbh/) ##
 
 Posteriors sample for the 30 most significant BBH candidates are located in the ['posterior_samples'](https://github.com/gwastro/2-ogc/tree/master/posterior_samples) folder. A summary of the parameter estimation results may be found here: 
 
