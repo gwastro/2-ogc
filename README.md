@@ -18,7 +18,43 @@ The catalog is stored in the file '2-OGC.hdf'. There are a variety of tools to a
 
 ## Parameter Estimates for top 30 BBH candidates ##
 
-Posteriors sample for the 30 most significant BBH candidates are located in the ['posterior_samples'](https://github.com/gwastro/2-ogc/tree/master/posterior_samples) folder. 
+Posteriors sample for the 30 most significant BBH candidates are located in the ['posterior_samples'](https://github.com/gwastro/2-ogc/tree/master/posterior_samples) folder.
+
+The posterior samples are in the `samples` group in the posterior data hdf files. These may be read in a python environment using an installation of h5py. For example,
+```
+>>> import h5py
+>>> fp = h5py.File('posterior_samples/H1L1V1-EXTRACT_POSTERIOR_150914_09H_50M_45UTC-0-1.hdf', 'r')
+>>> fp['samples/mass1'][()]
+array([35.44952146, 34.56030317, 40.06709433, ..., 34.56424324,
+       33.19243344, 39.63952366])
+```
+
+Provided parameters are:
+ * `mass1`: The source-frame mass of the larger object, in solar masses.
+ * `mass2`: The source-frame mass of the smaller object, in solar masses.
+ * `chi_eff`: The effective spin of the binary.
+ * `chi_p`: The precessing-spin parameter of the binary.
+ * `spin1_a`: The dimensionless spin-magnitude of the larger object.
+ * `spin2_a`: The dimensionless spin-magnitude of the smaller object.
+ * `spin1_azimuthal`: The azimuthal angle of the spin of the larger object.
+ * `spin2_azimuthal`: The azimuthal angle of the spin of the smaller object.
+ * `spin1_polar`: The polar angle of the spin of the spin of the larger object.
+ * `spin2_polar`: The polar angle of the spin of the spin of the smaller object.
+ * `tc`: The geocentric GPS time of the signal merger.
+ * `ra`: The right ascension of the signal (in radians).
+ * `dec`: The declination of the signal (in radians).
+ * `distance`: The lumionsity distance to the signal (in Mpc).
+ * `redshift`: The cosmological redshift of the signal.
+ * `comoving_volume`: The comoving volume at the redshift of the signal.
+ * `inclination`: The inclination of the binary's orbital angular momentum with
+   respect to the line of sight, in radians. An inclination of 0 (pi)
+   corresponds to a face-on (face-away) orientation.
+ * `polarization`: The polarization angle of the gravitational wave.
+ * `loglikelihood`: The natural log of the likelihood of each sample.
+ * `logprior`: The natural log of the prior of each sample.
+ * `logjacobian`: The natural log of the Jacobian between the parameter space and the sampling parameter-space that was used.
+
+The samples group `attrs` (accessed via `fp['samples'].attrs`) contains the log of the likelihood assuming the noise hypothesis (`lognl`). Subtracting this from the `loglikelihood` gives the log of the likelihood ratio at each point. The `attrs` of the HDF files (accessed via `fp.attrs`) also contain metadata about the run.
 
 ## Catalog of Merger Candidates (including sub-threshold candidates) ##
 
