@@ -22,8 +22,8 @@ Posteriors sample for the 30 most significant BBH candidates are located in the 
 
  * BBH summary page: http://pycbc.org/2-ogc/top30_bbh/
  
- ![](pe_preview_1.png | width=100)
- ![](pe_preview_2.png | width=100)
+ ![](pe_preview_1.png){:height="10%" width="10%"}
+ ![](pe_preview_2.png){:height="10%" width="10%"}
 
 The posterior samples are in the `samples` group in the posterior data hdf files. These may be read in a python environment using an installation of h5py. For example,
 ```
