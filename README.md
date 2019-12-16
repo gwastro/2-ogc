@@ -18,7 +18,9 @@ The catalog is stored in the file '2-OGC.hdf'. There are a variety of tools to a
 
 ## Parameter Estimates for top 30 BBH candidates ##
 
-Posteriors sample for the 30 most significant BBH candidates are located in the ['posterior_samples'](https://github.com/gwastro/2-ogc/tree/master/posterior_samples) folder.
+Posteriors sample for the 30 most significant BBH candidates are located in the ['posterior_samples'](https://github.com/gwastro/2-ogc/tree/master/posterior_samples) folder. A summary of the parameter estimation results may be found here: 
+
+ * BBH summary page: http://pycbc.org/2-ogc/top30_bbh/
 
 The posterior samples are in the `samples` group in the posterior data hdf files. These may be read in a python environment using an installation of h5py. For example,
 ```
