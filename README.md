@@ -14,12 +14,18 @@
 
 We present the second Open Gravitational-wave Catalog (2-OGC) of compact-binary coalescences, obtained from the complete set of public data from Advanced LIGO's first and second observing runs. For the first time we also search public data from the Virgo observatory. The sensitivity of our search benefits from updated methods of ranking candidate events including the effects of non-stationary detector noise and varying network sensitivity; in a separate targeted binary black hole merger search we also impose a prior distribution of binary component masses. We identify a population of 14 binary black hole merger events with probability of astrophysical origin >0.5 as well as the binary neutron star merger GW170817. We confirm the previously reported events GW170121, GW170304, and GW170727 and also report GW151205, a new marginal binary black hole merger with a primary mass of 67+28−17M⊙ that may have formed through hierarchical merger. We find no additional significant binary neutron star merger or neutron star--black hole merger events. To enable deeper follow-up as our understanding of the underlying populations evolves, we make available our comprehensive catalog of events, including the sub-threshold population of candidates and posterior samples from parameter inference of the 30 most significant binary black hole candidates.
 
-The catalog is stored in the file '2-OGC.hdf'. There are a variety of tools to access [hdf files](https://www.hdfgroup.org/) from numerous computing languages. Here we will focus on access through python and [h5py](www.h5py.org). Posteriors sample for the 30 most significant BBH candidates are located in the ['posterior_samples'](https://github.com/gwastro/2-ogc/tree/master/posterior_samples) folder. 
+The catalog is stored in the file '2-OGC.hdf'. There are a variety of tools to access [hdf files](https://www.hdfgroup.org/) from numerous computing languages. Here we will focus on access through python and [h5py](www.h5py.org).
 
-## Analysis Details ##
+## Parameter Estimates for top 30 BBH candidates ##
+
+Posteriors sample for the 30 most significant BBH candidates are located in the ['posterior_samples'](https://github.com/gwastro/2-ogc/tree/master/posterior_samples) folder. 
+
+## Catalog of Merger Candidates (including sub-threshold candidates) ##
+
+### Analysis Details ###
 Details of the analysis are available in this [preprint paper](https://arxiv.org/abs/1910.05331) and the configuration files needed to create the analysis workflows are provided in the [search_configs](https://github.com/gwastro/2-ogc/tree/master/search_configs) directory.
 
-## Accessing the Catalog: 2-OGC.hdf ##
+### Accessing the Catalog: 2-OGC.hdf ###
 
 There are two datasets within the file, `/complete` and `/bbh`. The `complete` set is the full dataset from our analysis. The `bbh` set includes BBH candidates from the bbh-region targeted analysis. See the 2-OGC paper for additional information. 
 
