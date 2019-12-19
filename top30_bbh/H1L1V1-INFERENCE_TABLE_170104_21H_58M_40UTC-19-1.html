@@ -1,4 +1,4 @@
-<div class=pycbc-meta key="cmd" value="/work/cdcapano/virtualenv/py36/bin/pycbc_inference_table_summary --quantiles 5 50 95 --input-file H1L1V1-EXTRACT_POSTERIOR_170104_21H_58M_40UTC-19-1.hdf --output-file H1L1V1-INFERENCE_TABLE_170104_21H_58M_40UTC-19-1.html --print-metadata trigger_time:$t_0$ analyzed_detectors:Detectors --parameters mass1 mass2 mchirp_from_mass1_mass2(mass1, mass2):mchirp (mass1+mass2):mtotal q_from_mass1_mass2(mass1, mass2):q chi_eff chi_p trigger_time-tc:$t_0-t_c$ (s) distance redshift snr_from_loglr(loglikelihood-lognl):SNR"></div><div class=pycbc-meta key="title" value="Parameter Estimates for Event 1"></div><div class=pycbc-meta key="caption" value="Summary of parameter estimates. The 90 percent credible interval is the 50th +/- 95th/5th percentiles. The maximum posterior parameters are the parameters with the largest likelihood * prior. The maximum likelihood parameters are the parameters with the largest likelihood."></div><div class=pycbc-meta key="version" value="Version: 1.14.dev2
+<div class=pycbc-meta key="cmd" value="/work/cdcapano/virtualenv/py36/bin/pycbc_inference_table_summary --quantiles 5 50 95 --input-file H1L1V1-EXTRACT_POSTERIOR_170104_21H_58M_40UTC-19-1.hdf --output-file H1L1V1-INFERENCE_TABLE_170104_21H_58M_40UTC-19-1.html --parameters mass1:$m_1^{\rm{src}}$ ($\rm{M}_{\odot}$) mass2:$m_2^{\rm{src}}$ ($\rm{M}_{\odot}$) mchirp_from_mass1_mass2(mass1, mass2):$\mathcal{M}^{\rm{src}}$ ($\rm{M}_{\odot}$) (mass1+mass2):$M_{\rm{total}}^{\rm{src}}$ ($\rm{M}_{\odot}$) q_from_mass1_mass2(mass1, mass2):q chi_eff chi_p trigger_time-tc:$t_0-t_c$ (s) distance redshift snr_from_loglr(loglikelihood-lognl):SNR --print-metadata trigger_time:$t_0$ analyzed_detectors:Detectors"></div><div class=pycbc-meta key="title" value="Parameter Estimates"></div><div class=pycbc-meta key="caption" value="Summary of parameter estimates. The 90-percent credible interval is the 50th +/- 95th/5th percentiles. The maximum posterior parameters are the parameters with the largest likelihood * prior. The maximum likelihood parameters are the parameters with the largest likelihood."></div><div class=pycbc-meta key="version" value="Version: 1.14.dev2
 Branch: 
 Tag: 
 Id: 
@@ -19,7 +19,7 @@ Repository status is "></div>
                     Parameter
                 </th>
                 <th>
-                    90.0% Credible Interval
+                    90% Credible Interval
                 </th>
                 <th>
                     Maximum Posterior
@@ -31,7 +31,7 @@ Repository status is "></div>
 
             <tr>
                 <td>
-                    $m_1~(\mathrm{M}_\odot)$
+                    $m_1^{\rm{src}}$ ($\rm{M}_{\odot}$)
                 </td>
                 <td>
                     $98^{+49}_{-40}$
@@ -45,7 +45,7 @@ Repository status is "></div>
             </tr>
             <tr>
                 <td>
-                    $m_2~(\mathrm{M}_\odot)$
+                    $m_2^{\rm{src}}$ ($\rm{M}_{\odot}$)
                 </td>
                 <td>
                     $44^{+30}_{-33}$
@@ -59,7 +59,7 @@ Repository status is "></div>
             </tr>
             <tr>
                 <td>
-                    $\mathcal{M}~(\mathrm{M}_\odot)$
+                    $\mathcal{M}^{\rm{src}}$ ($\rm{M}_{\odot}$)
                 </td>
                 <td>
                     $56^{+21}_{-34}$
@@ -73,7 +73,7 @@ Repository status is "></div>
             </tr>
             <tr>
                 <td>
-                    $M~(\mathrm{M}_\odot)$
+                    $M_{\rm{total}}^{\rm{src}}$ ($\rm{M}_{\odot}$)
                 </td>
                 <td>
                     $147^{+46}_{-73}$
