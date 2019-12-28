@@ -8,7 +8,7 @@
  <sub>5. Kavli Institute of Theoretical Physics, UC Santa Barbara, CA</sub>  
  <sub>6. Department of Experimental Physics, University of Szeged, Szeged, 6720 D´om t´er 9., Hungary</sub>
 
-![](2ogc-bbh.png)
+![](https://raw.githubusercontent.com/gwastro/2-ogc/master/2ogc-bbh.png)
 
 ## Introduction ##
 
