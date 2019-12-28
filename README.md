@@ -1,4 +1,4 @@
-# 2-OGC: Open Gravitational-wave Catalog of binary mergers from analysis of public Advanced LIGO and Virgo data
+# Open Gravitational-wave Catalog of binary mergers from analysis of public Advanced LIGO and Virgo data
 **Alexander H. Nitz<sup>1, 2</sup>, Thomas Dent<sup>3</sup>, Gareth S. Davies<sup>3</sup>,Sumit Kumar<sup>1, 2</sup>, Collin D. Capano<sup>1, 2</sup>, Ian Harry<sup>4, 5</sup>, Simone Mozzon<sup>4</sup>, Laura Nuttall<sup>4</sup>, Andrew Lundgren<sup>4</sup>, and Marton Tapai<sup>6</sup> **
 
  <sub>1. [Albert-Einstein-Institut, Max-Planck-Institut for Gravitationsphysik, D-30167 Hannover, Germany](http://www.aei.mpg.de/obs-rel-cos)</sub>  
