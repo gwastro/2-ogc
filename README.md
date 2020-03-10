@@ -81,11 +81,11 @@ all_candidates = catalog['complete']
 bbh_candidates = catalog['bbh']
 
 # Accessing a column by name
-ranking_values = all_candidates['stat']
+ranking_values = all_candidates['stat'][:]
 
 # Selecting parts of the catalog
-region = all_candidates['mass1'] + all_candidates['mass2'] < 4
-lowmass_candidates = all_candidates[region]
+region = all_candidates['mass1'][:] + all_candidates['mass2'][:] < 4
+lowmass_snr = all_candidates['H1_SNR'][:][region]
 
 ```
 
